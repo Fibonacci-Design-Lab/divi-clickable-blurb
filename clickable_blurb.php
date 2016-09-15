@@ -462,4 +462,4 @@ class FDL_Builder_Module_Clickable_Blurb extends ET_Builder_Module {
       return $output;
    }
 }
-new FDL_Builder_Module_Card_Blurb();
+new FDL_Builder_Module_Clickable_Blurb();

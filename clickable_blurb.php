@@ -442,12 +442,9 @@ class FDL_Builder_Module_Clickable_Blurb extends ET_Builder_Module {
                <div class="et_pb_blurb_container"> 
                       %3$s
                      %1$s
-               </div>
-            </div> 
-
-            </div> <!-- .et_pb_blurb_content -->
-            
-         </div> <!-- .et_pb_blurb -->
+               </div><!-- .et_pb_blurb_container -->
+            </div>  <!-- .et_pb_blurb_content -->
+   </div> <!-- .et_pb_blurb -->
          </a>',
          $this->shortcode_content,
          $image,

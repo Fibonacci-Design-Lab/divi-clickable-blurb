@@ -436,14 +436,11 @@ class FDL_Builder_Module_Clickable_Blurb extends ET_Builder_Module {
       $class = " et_pb_module et_pb_bg_layout_{$background_layout} et_pb_text_align_{$text_orientation}";
  $output = sprintf(
          '<a href="%8$s" %9$s>
- <div%5$s class="et_pb_blurb%4$s%6$s%7$s ch-grid2">
-            <div class="et_pb_blurb_content ch-item2">
-            <div class="ch-info2">
-               <div class="ch-info-front2">
+ <div%5$s class="et_pb_blurb%4$s%6$s%7$s">
+            <div class="et_pb_blurb_content">
                   %2$s
-                  %3$s
-               </div>
-               <div class="et_pb_blurb_container ch-info-back2"> 
+               <div class="et_pb_blurb_container"> 
+                      %3$s
                      %1$s
                </div>
             </div> 
